@@ -26,6 +26,7 @@
     font-style: normal;
 }
 
+
 header{
     display: flex;
     flex-direction: row;
@@ -96,8 +97,7 @@ h1 {
 }
 
 .f-p {
-    height: 520px;
-    width: 100%x;
+    height: 520px;  
     background-image: url("../assets/img/fondo-principal.jpg");
     background-position: bottom;
     background-size: 100% 100%;
@@ -128,7 +128,6 @@ h1 {
     margin-right: 200px;
 
 }
-
 
 
 /*PRODUCTOS*/
@@ -166,55 +165,60 @@ h1 {
 
 /*PRODUCTOS DESTACADOS*/
 
-.remera-desta,
 .camisa-desta,
-.vestido-desta {
+.vestido-desta,
+.buzos-desta,
+.jean-desta,
+.body-desta {
     height: 350px;
     width: 280px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 70px;
+}
+
+
+.buzos-desta:hover,
+.camisa-desta:hover,
+.jean-desta:hover,
+.body-desta:hover,
+.vestido-desta:hover{
+    transform: scale(1.1);
 }
 
 .productos-destacados {
-    background-color: #B5B5B5;
-    padding: 5px;
+    background-color: #b5b5b57a;
+    padding: 20px;
     text-align: center;
     margin-bottom: 60px;
 }
 
 .productos-destacados h2{
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #2a2929;
 }
 
 
 .contenedor-productos2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 30px;
 }
 
 /*FOOTER*/
 
-.sobrenosotros,
-.contactanos{
-    margin-right: 25%;
-}
-
-.preguntasfrecuentes,
-.locales{
-    margin-left: 25%;
-}
-
 footer {
     background-color: #434343;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 40px;
-    margin-top: 70px;
 }   
 
 footer h2{
-    font-size: 50px;
+    font-size: 55px;
 }
 
 .opciones-footer{
@@ -227,14 +231,9 @@ footer h2{
     color: #ffffff;
     text-decoration: none;
     list-style: none;
-}
-
-.sobrenosotros,
-.preguntasfrecuentes,
-.contactanos,
-.locales {
     margin: 50px;
 }
+
 
 /*EN GENERAL*/
 .grid {
@@ -408,49 +407,55 @@ PAGINA: PREGUNTAS FRECUENTES
 PAGINA: REGISTRARSE
 */
 
-.grid-registrar{
+.grid-registro{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     place-items: center;
 }
 
-.section-registrado{
+.form-registrado{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    align-items: center;
+}
+
+.section-registrado{
     background-color: #F4F4F4; 
     padding: 30px;
     border-radius: 10px;
-    margin-bottom: 150px;
-    color: #434343;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .section-registrado h2{
     margin-bottom: 35px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     border-bottom: 1px solid #434343;
 }
 
-.section-registrarse{
+.form-registrarse{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    background-color: #F4F4F4;
+    align-items: center;
+}
+
+.form-registrarse label{
+    align-self: start;
+    margin-bottom: 5px
+}
+
+.section-registrarse{
+    background-color: #F4F4F4; 
     padding: 30px;
     border-radius: 10px;
-    margin-bottom: 150px;
-    color: #434343;
-    margin-top: 10px;;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .section-registrarse h2{
     margin-bottom: 35px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     border-bottom: 1px solid #434343;
 }
 
@@ -461,9 +466,14 @@ PAGINA: REGISTRARSE
     background-color: #F4F4F4;
 }
 
+input::placeholder{
+    font-size: 13px;
+    font-style: oblique;
+}
+
 .submit{
-    padding: 5px;
-    width: 150px;
+    padding: 6px;
+    width: 50%;
     text-transform: uppercase;
     color: #ffffff;
     background-color: #434343;
@@ -536,7 +546,7 @@ PAGINA: SOBRE NOSOTROS
     text-transform: uppercase;
 }
 
-.negrita{
+.contenedor-sobrenosotros h3:first-child{
     font-weight: bold;
 }
 
@@ -578,10 +588,45 @@ LOCALES
         margin-left: 375px;
     }   
     .f-p{
-        width: 140%;
+        width: 140%;    
         background-position: bottom;
     }
     
+    /*productos destacados*/
+    .productos-destacados {
+        background-color: #b5b5b57a;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    /*FOOTER*/
+    footer {
+        background-color: #434343;
+        display: flex;
+        align-items: center;
+        padding: 40px;
+        padding-left: 400px;
+        justify-content: space-around;
+        align-items: center
+    }   
+    
+    footer h2{
+        font-size: 55px;
+    }
+    
+    .opciones-footer{
+        list-style: none;
+        display: flex;
+        font-weight: 300;
+    }
+    
+    .opciones-footer li a{
+        color: #ffffff;
+        text-decoration: none;
+        list-style: none;
+        margin: 100px;
+    }
 }
 
 @media (max-width: 768px){
@@ -606,6 +651,21 @@ LOCALES
     .f-p{
         width: 185%;
         background-position: bottom;
+    }
+
+    .contenedor-productos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 50px;
+        margin-left: 65%
+    }  
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin-left: 50%;
+        gap: 50px;
     }
 
     .contenedor-productos{
