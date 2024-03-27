@@ -681,7 +681,7 @@ LOCALES
         width: 770px;
         margin-right: 0;
     }
-}
+
 
     /*preguntas frecuentes*/
     
@@ -696,8 +696,8 @@ LOCALES
     .article-pedidos{
         padding: 20px 60px 35px 50px;
     }
-    
-    
+
+}
 
 @media (max-width: 426px){
 
@@ -774,6 +774,11 @@ LOCALES
     }
 
     /*contactanos*/
+
+    .section-contactanos{
+        display: flex;
+        flex-direction: column;
+    }
     
     .titulo-contactanos{
         font-size: 16px;
@@ -786,6 +791,7 @@ LOCALES
     .img-googlemaps{
         width: 425px;
     }
+
 
     /*preguntas frecuentes*/
     
@@ -809,6 +815,14 @@ LOCALES
         padding: 5px 60px 30px 50px;
     }
    
+    /*registro*/
+
+    .grid-registro{  
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
 }
 
 @media (max-width: 376px){
@@ -919,12 +933,10 @@ LOCALES
     }
    
 
-/*registro*/
-    .grid-registro{
+    /*registro*/
+    .grid-registro{  
         display: flex;
-        flex-direction: column;
-        place-items: center;
-        gap: 50px;
+        align-items: stretch;
     }
 
     /*preguntas frecuentes*/
