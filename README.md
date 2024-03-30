@@ -9,7 +9,7 @@
 ##### Tecnologías aplicadas:
 <ul>
 <li>Flexbox</li>
-<li>Box Model<-/li>
+<li>Box Model</li>
 <li>Grid</li>
 <li>Responsive</li>
 <li>Framework: Bootstrap</li>
