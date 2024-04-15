@@ -1,0 +1,36 @@
+
+header {
+
+    .dropdown-menu{
+        background-color: #F4F4F4
+    }  
+
+
+    .container-fluid{
+        gap: 25%;
+    }
+
+    .navbar-brand {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style:normal;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-weight: 400 ;
+    }
+
+    /*la barra de navegacion*/
+    .navbar-nav{
+        font-size: 16px;
+        gap: 40px;
+    }
+
+
+    .carritodecompras,
+    .persona-index{
+        width: 25px;
+    }
+
+}

@@ -1,0 +1,43 @@
+.main-contactanos{
+
+    h2{
+        text-transform: uppercase;
+        font-size: 40px;
+        margin-left: 100px;
+        margin-bottom: 40px;
+        border-bottom: 1px solid map-get($colores, colorPrincipal);
+        margin-right: 73%;
+    }
+
+    .section-contactanos{
+        display: flex;
+        justify-content: space-around;
+
+        .div-contactanos{
+            @include flex (flex,row,center);
+            padding: 39px;
+            border: 1px solid #43434339;
+            background-color: #e4e4e4b0;
+            padding-right: 400px;
+            margin-left: 100px;
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+
+        .imgwpp,
+        .imgemail,
+        .imgubication,
+        .f-contactanos,
+        .i-contactanos {  
+            width: 30px
+        }
+    }
+
+    .img-googlemaps{ 
+        width: 600px;
+        margin-right: 100px;
+    }
+
+}

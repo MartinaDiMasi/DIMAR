@@ -1,0 +1,29 @@
+.main-sobrenosotros{
+
+    h2{
+        text-transform: uppercase;
+        margin-left: 100px;
+        margin-bottom: 60px;
+        border-bottom: 1px solid map-get($colores, colorPrincipal);
+        margin-right: 71%;
+    
+    }
+
+    .contenedor-sobrenosotros{
+        background-color: map-get($colores, colorBackGround);
+
+        h3 {
+            margin-bottom: 30px;
+            margin-left: 100px;
+            text-transform: uppercase;
+
+            &:first-child{
+                font-weight: bold;
+            }
+        }
+    }
+
+    
+}
+
+

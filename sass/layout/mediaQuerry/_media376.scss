@@ -1,0 +1,57 @@
+@media (max-width: 376px){
+
+    .grid {
+        gap: 15px;
+    }
+    
+
+    .main-contactanos {
+
+        h2 {
+            margin-right: 28%;
+        }
+
+        .img-googlemaps{
+            width: 375px;
+        }
+    
+    }
+    
+    .main-index {
+
+        .contenedor-productos {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            place-items: center;
+        }
+
+    }
+
+    footer {
+        .opciones-footer li a {
+            margin: 0;
+        }
+    }
+    
+    
+
+    /*sobre nosotros*/
+
+    .main-sobrenosotros {
+
+        h2 {
+            font-size: 16px;
+            margin-right: 55%;
+            margin-left: 10px;
+        }
+    
+        .contenedor-sobrenosotros{
+
+            h3 {
+                font-size: 16px;
+                margin-left: 10px;
+            }
+        }
+    }
+}

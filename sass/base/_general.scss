@@ -1,0 +1,67 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 25px;
+    margin-bottom: 150px;
+    margin-left: 5%;
+    justify-content: center;
+    row-gap: 1.5625rem;
+
+    button {
+        background-color: #434343;
+        color: #ffffff;
+        text-transform: uppercase;
+        padding: 5px;
+        border: #434343;
+        border-radius: 4px;
+        margin: 5px 0px;
+    }
+
+    button a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .precio {
+        color: black;
+        font-weight: 200px;
+        margin-top: 5px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    p{
+        margin-bottom: 0;
+    }
+
+    .remeras,
+    .vestidos,
+    .div-jeans,
+    .div-buzos,
+    .topybodies { 
+        color: #434343;
+        text-transform:uppercase;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400  ;
+        font-style: normal;
+    }
+}
+
+.section-titulos{
+    background-color: #434343;
+    color: #ffffff;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lineagris{
+    background-color: #434343;
+    padding: 15px;
+    margin-bottom: 20px;
+}

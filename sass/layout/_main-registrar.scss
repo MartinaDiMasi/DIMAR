@@ -1,0 +1,70 @@
+
+.main-registrar{
+
+    .grid-registro{
+        @include grid(grid,1fr 1fr,1fr);
+        place-items: center;
+
+        .section-registrado{
+            background-color: map-get($colores, colorBackGround);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: $boxShadow;
+
+            h2{
+                margin-bottom: 35px;
+                text-align: center;
+                padding-bottom: 15px;
+                border-bottom: 1px solid map-get($colores, colorPrincipal);
+            }
+
+            .form-registrado{
+                @include flex (flex,column,center);
+            }
+        }
+        
+        .section-registrarse{
+            background-color: map-get($colores, colorBackGround);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: $boxShadow;
+
+            h2{
+                margin-bottom: 35px;
+                text-align: center;
+                padding-bottom: 15px;
+                border-bottom: 1px solid map-get($colores, colorPrincipal);
+            }
+
+            .form-registrarse{
+                @include flex (flex,column,center);
+
+                label{
+                    align-self: start;
+                    margin-bottom: 5px
+                }
+            }
+        }
+    }
+    
+    .controls{
+        width: 300px;
+        padding: 5px;
+        margin-bottom: 16px;
+        background-color: map-get($colores, colorBackGround);
+    }
+
+    input::placeholder{
+        font-size: 13px;
+        font-style: oblique;
+    }
+
+    .submit{
+        padding: 6px;
+        width: 50%;
+        text-transform: uppercase;
+        color: $color;
+        background-color: map-get($colores, colorPrincipal);
+    }
+}
+

@@ -1,0 +1,111 @@
+@media (max-width: 768px){
+
+header {
+
+    .navbar-nav {
+        font-size: 16px;
+        gap: 10px;
+    }   
+
+    .dropdown-menu{
+        background-color: #F4F4F4
+    }
+
+    .persona-index,
+    .carritodecompras{
+        width: 30px;
+    }
+
+    
+}     
+    .main-index {
+        
+        .f-p{
+            background-image: url(../assets/img/fondotablet.jpg); 
+            background-position: right;
+            height: 350px;
+        }
+
+        .contenedor-productos{
+            gap: 50px; 
+        }  
+
+        .productos-destacados{ 
+
+            h2 {
+                font-size: 24px;
+                padding: 2px;
+                margin-bottom: 0;
+            }
+        }
+
+        .contenedor-productos2{
+            gap: 10px;
+            place-items: center;
+        }
+        
+    }   
+    /*paginas*/
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 50px;
+    }   
+    
+    .section-titulos{
+        text-align: center;
+    }  
+
+    /*contactanos*/
+
+    .main-contactanos{
+
+        h2 {
+            font-size: 24px;
+            margin-right: 38%;
+            margin-left: 38%;
+        }
+
+        .section-contactanos{
+            flex-direction: column;
+        }
+
+        .img-googlemaps{
+            width: 770px;
+            margin-right: 0;
+        }
+    
+    }
+    
+
+    /*preguntas frecuentes*/
+    
+    .titulo-pregfrecuentes{
+        font-size: 20px;
+    }
+
+    .article-envios{
+        padding: 10px 60px 24px 50px
+    }
+
+    .article-pedidos{
+        padding: 20px 60px 35px 50px;
+    }
+
+
+    /*sobre nosotros*/
+
+    .main-sobrenosotros{
+
+        h2 {
+            font-size: 24px;
+            margin-right: 55%;
+        }
+            
+        h3{
+            font-size: 24px;   
+        }
+    }
+}   
+
