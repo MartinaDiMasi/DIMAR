@@ -1,0 +1,105 @@
+@media (max-width: 1024px){
+
+    header {
+
+        .header-input{
+            display: none;
+        }
+    }
+    
+    .main-index{
+
+        .f-p {
+            background-image: url(../assets/img/fondodektops.jpg);   
+            height: 450px;
+            background-repeat: no-repeat;   
+        }
+
+    .header-input{
+        display: none;
+    }
+
+    .remera-produ,
+    .buzo-produ,
+    .jean-produ,
+    .vestido-produ{
+        width: 250px;
+    }
+
+    .contenedor-productos{
+
+        .nombres-productos{
+            width: auto;   
+        }
+    }
+    
+    .contenedor-productos2{
+
+        .buzos-desta,
+        .camisa-desta,
+        .jean-desta,
+        .body-desta,
+        .vestido-desta {
+            width: 250px;
+            height: 300px;
+        }
+    }
+
+    }
+
+    footer {
+
+        display: flex;
+        flex-direction: row;
+
+        .opciones-footer{
+            display: flex;
+            flex-direction: column;
+        
+        }
+    }
+}
+
+    /*pages*/
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    /*contactanos*/
+    
+    .main-contactanos {
+
+        h2 {
+            font-size: 32px;
+            margin-right: 74%;
+            margin-left: 20px;
+        }
+    
+        .section-contactanos {
+
+            .div-contactanos{
+                padding-right: 100px;
+                margin-left: 0;
+            }
+        }
+
+        .img-googlemaps{
+            width: 550px;
+            margin-right: 0;
+        }
+
+    }
+
+    /*sobre nosotros*/
+    .main-sobrenosotros{
+
+        h2 {
+            margin-right: 60%
+        }
+    }
+    
+    
+

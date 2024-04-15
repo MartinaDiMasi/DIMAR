@@ -1,0 +1,49 @@
+
+.main-preguntasfrecuentes{
+
+
+    .titulo-pregfrecuentes{
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+        border-bottom: 1px solid map-get($colores, colorPrincipal);
+        font-size: 25px;
+    }
+
+    .seccion-pregfrecuentes{
+        @include grid(grid,1fr 1fr,1fr 1fr);
+        font-size: 20px;
+        align-items: center;
+
+        .titulo-pf {
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+
+        .article-metodopago{
+            margin-bottom: 40px;
+            margin-right: 5%;
+            background-color: map-get($colores, colorBackGround);
+            border-radius: 10px;
+            box-shadow: $boxShadow;
+            padding: 5px 60px 30px 50px;
+        }
+        
+        .article-envios{
+            @extend .article-metodopago;
+            margin-right: 0%;
+            margin-left: 5%;
+            padding: 20px 60px 45px 50px;
+        }
+        
+        .article-pedidos{
+            @extend .article-metodopago;
+            padding: 20px 60px 55px 50px;
+        }
+        
+        .article-cambios{
+            @extend .article-envios;
+            padding: 35px 60px 50px 50px;
+        }
+    }
+}

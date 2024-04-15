@@ -1,0 +1,183 @@
+@media (max-width: 426px) {
+
+    .main-index {
+
+        .f-p {
+            background-image: url(../assets/img/fotoparamovil.jpg);
+            height: 250px;  
+            background-position: top;    
+        }
+
+        .contenedor-productos{
+            display: flex;
+            gap: 20px;
+            margin-bottom: 0;   
+        }
+
+        .productos-destacados{
+            margin-top: 30px;
+
+            h2{
+                font-size: 16px;
+            }
+        }
+
+        .contenedor-productos2{
+
+            .buzos-desta,
+            .camisa-desta,
+            .jean-desta,
+            .body-desta,
+            .vestido-desta {
+                width: 150px;
+                height: 200px;
+            } 
+        
+        }
+
+    }
+
+    footer{
+
+        .opciones-footer{
+            text-align: center;
+            padding-left: 0;
+        }
+    
+        .f-fc,
+        .f-ig{
+            width: 40px;
+        }
+    }
+
+    
+
+    /*pages*/
+
+    .main-remeras {
+
+        .camisaverde, .camisarosa, .camisalino, .remerabasica, .remerafit, .camisacrepe {
+            width: 150px;
+            height: 200px;
+        }
+    }
+
+    .main-vestidos {
+        .vestilargo, .vestilanilla, .monobotones, .vestisaten {
+            width: 150px;
+            height: 200px;
+        }
+    }
+    .main-jeans {
+        .jeansally,.jeanwide,.jean-mom {
+            width: 150px;
+            height: 200px;
+        }
+    }    
+    .main-buzos {
+        .buzocamio, .buzo-rustico,.buzored,.buzocrop,.buzohood, .buzohood2{
+            width: 150px;
+            height: 200px;
+        }
+    }
+    .main-topsybodies {
+        .bodyliso, .topelasticos {
+            width: 150px;
+            height: 200px;
+        }
+    }
+
+    .remeras,
+    .vestidos,
+    .div-jeans,
+    .div-buzos,
+    .precio,
+    .topybodies{
+        font-size: 12px;
+    }
+
+    button a {
+        font-size: 12px;
+    }
+
+    /*contactanos*/
+
+    .main-contactanos {
+        
+        .section-contactanos{
+            display: flex;
+            flex-direction: column;
+
+            .div-contactanos{
+                padding: 20px;
+            }
+        }
+
+        h2 {
+            font-size: 16px;
+            margin-right: 33%;
+        }
+        
+        .img-googlemaps{
+            width: 425px;
+        }
+    }
+
+
+    /*preguntas frecuentes*/
+
+    .main-preguntasfrecuentes{
+
+        .titulo-pregfrecuentes{
+            font-size: 16px;
+        }
+
+        .seccion-pregfrecuentes{
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+
+            .article-cambios,
+            .article-envios,
+            .article-metodopago,
+            .article-pedidos {
+                margin-right: 0;
+                margin-left: 0;
+                width: 100%;
+                padding: 5px 60px 30px 50px;
+            }
+
+        }
+    
+    }
+    
+    /*registro*/
+
+    .main-registrar{
+
+        .grid-registro{  
+            display: flex;
+            flex-direction: column;
+            gap: 30px; 
+        }
+    }
+
+    /*sobre nosotros*/
+
+    .main-sobrenosotros{
+
+        h2 {
+            font-size: 16px;
+            margin-right: 55%;
+            margin-left: 35px;
+        }
+
+        .contenedor-sobrenosotros {
+
+            h3{
+                font-size: 16px;
+                margin-left: 35px;
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+
+.main-remeras {
+
+    .camisaverde,
+    .camisarosa,
+    .camisalino,
+    .remerabasica,
+    .remerafit {
+        height: map-get($medidasFotos , height );
+        width: map-get($medidasFotos , width );
+    }
+}
+
+
+.main-vestidos {
+
+    .vestilargo,
+    .vestilanilla,
+    .monobotones,
+    .vestisaten {
+        height: map-get($medidasFotos , height );
+        width: map-get($medidasFotos , width );
+    }
+}
+
+.main-jeans {
+
+    .jeansally,
+    .jeanwide {
+        height: map-get($medidasFotos , height );
+        width: map-get($medidasFotos , width );
+    }
+}
+
+.main-buzos{
+
+    .buzocamio,
+    .buzocap,
+    .buzored,
+    .buzocrop,
+    .buzohood,
+    .buzohood2 {
+        height: map-get($medidasFotos , height );
+        width: map-get($medidasFotos , width );
+    }
+}
+
+.main-topsybodies {
+    
+    .bodyliso,
+    .topelasticos {
+        height: map-get($medidasFotos , height );
+        width: map-get($medidasFotos , width );
+    }
+}

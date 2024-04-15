@@ -1,0 +1,41 @@
+
+@import "./utilities/variables";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+
+
+@import "./base/reset";
+@import "./base/general";
+
+
+@import "./layout/main-index";
+@import "./layout/footer";
+@import "./layout/main-productos";
+@import "./layout/main-pregfrecue";
+@import "./layout/footer-productos";
+@import "./layout/main-registrar";
+@import "./layout/main-contactanos";
+@import "./layout/main-sobrenosotros";
+
+
+@import "./components/bootstrap";
+
+
+@media (max-width: 1024px){
+    @import "./layout/mediaQuerry/media1024";
+}
+@media (max-width: 768px){
+    @import "./layout/mediaQuerry/media768";
+}
+@media (max-width: 426px){
+    @import "./layout/mediaQuerry/media426";
+}
+@media (max-width: 376px){
+    @import "./layout/mediaQuerry/media376";
+}
+@media (max-width: 321px){
+    @import "./layout/mediaQuerry/media321";
+}
+
+
+

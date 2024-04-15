@@ -1,0 +1,132 @@
+@media (max-width: 321px){
+    
+    header h1 {
+        font-size: 35px;
+    }
+    
+
+    .main-index {
+
+        .contenedor-productos{
+            place-items: center;
+            margin-bottom: 30px;
+
+            .titulos-productos{
+                font-size: 12px;
+            }
+        
+            .nombres-productos{
+                padding: 1px;
+            }
+        }
+
+        .productos-destacados h2{
+            font-size: 16px;
+            padding: 0;
+        }
+
+        .contenedor-productos2{
+            justify-content: center;
+        }
+
+    }
+
+    /*pages*/
+
+    .section-titulos h2 {
+        font-size: 16px;
+    }
+    
+    .grid{
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        place-items: center;
+    }
+    
+    .main-remeras {
+
+        .camisaverde,
+        .camisarosa,
+        .camisalino,
+        .remerabasica,
+        .remerafit,
+        .camisacrepe {
+            height: 230px;
+            width: 180px;
+    }
+    
+}
+
+    /*contactanos*/
+
+    .main-contactanos {
+
+        h2 {
+            margin-right: 30%;
+            margin-left: 30%;
+        }
+
+    .section-contactanos {
+
+        .div-contactanos{
+            padding: 10px;
+        }
+    }
+    
+
+    .img-googlemaps{
+        width: 320px;
+    }
+
+}
+
+    .opciones-footer li a{
+        margin: 15px
+    }
+
+    /*registro*/
+
+    .main-registrar {
+
+        .grid-registro {  
+            display: flex;
+            align-items: stretch;
+        }
+    }
+
+    .submit {
+        font-size: 15px;
+    }
+
+    /*preguntas frecuentes*/
+    
+    .titulo-pregfrecuentes{
+        font-size: 13px;
+    }
+
+    /*sobre nosotros*/
+
+    .main-sobrenosotros {
+
+        h2{
+            font-size: 16px;
+            margin-right: 48%;
+            margin-left: 5px;
+        }
+        
+        .contenedor-sobrenosotros {
+            h3 {
+                font-size: 16px;
+                margin-left: 5px;
+            }
+        }    
+    }
+
+    footer {
+        height: auto;
+        flex-wrap: wrap;
+   
+    }
+
+}
