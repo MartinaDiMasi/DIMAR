@@ -6,6 +6,7 @@
         background-position: bottom;
         background-size: 100%;
         margin-bottom: 5rem;
+        
     }
 
     .contenedor-productos{
@@ -14,6 +15,11 @@
         margin-top: 60px;
         margin-bottom: 60px;
         flex-wrap: wrap;
+
+        .buzo-produ{
+            background-color: rgba(255, 255, 255, 0.5); /* Color blanco con 50% de opacidad */
+            opacity: 0.5; /* Opacidad general */
+        }
 
         .nombres-productos{
             background-color: map-get($colores, colorPrincipal );
@@ -60,6 +66,7 @@
             object-fit: cover;
         }     
     }
+    
     .camisa-desta:hover, .jean-desta:hover, .buzos-desta:hover, .body-desta:hover{
         transform: scale(1.2);
     } 

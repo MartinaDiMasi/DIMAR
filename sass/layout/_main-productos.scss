@@ -34,9 +34,7 @@
 .main-buzos{
 
     .buzocamio,
-    .buzocap,
-    .buzored,   
-    .buzocierre,
+    .buzocap,   
     .buzohood2 {
         height: map-get($medidasFotos , height );
         width: map-get($medidasFotos , width );

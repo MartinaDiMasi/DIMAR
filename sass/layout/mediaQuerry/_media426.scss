@@ -34,7 +34,6 @@
             } 
         
         }
-
     }
 
     footer{
@@ -50,8 +49,6 @@
         }
     }
 
-    
-
     /*pages*/
 
     .main-remeras {
@@ -63,11 +60,13 @@
     }
 
     .main-vestidos {
-        .vestilargo, .vestilanilla, .monobotones, .vestisaten {
+        .vestilargo, .vestilanilla, .vestisaten {
             width: 150px;
             height: 200px;
         }
     }
+
+    
     .main-jeans {
         .jeansally,.jeanwide,.jean-mom {
             width: 150px;
@@ -75,10 +74,11 @@
         }
     }    
     .main-buzos {
-        .buzocamio, .buzo-rustico,.buzored,.buzocrop,.buzohood, .buzohood2{
+        .buzocamio, .buzo-rustico, .buzored, .buzohood2{
             width: 150px;
             height: 200px;
         }
+
     }
     .main-topsybodies {
         .bodyliso, .topelasticos {
