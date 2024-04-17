@@ -49,15 +49,20 @@
         flex-wrap: wrap;
         justify-content: space-around;
         margin-bottom: 30px;
+        
 
-        .camisa-desta, .vestido-desta, .buzos-desta, .jean-desta,.body-desta {
+        .camisa-desta, .buzos-desta, .jean-desta,.body-desta {
             height: map-get($medidasFotos , height );
             width: map-get($medidasFotos , width );
             border-radius: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             margin-bottom: 70px;
-        }  
-
+            object-fit: cover;
+        }     
     }
+    .camisa-desta:hover, .jean-desta:hover, .buzos-desta:hover, .body-desta:hover{
+        transform: scale(1.2);
+    } 
 
+    
 }

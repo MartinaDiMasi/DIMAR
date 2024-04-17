@@ -1,0 +1,26 @@
+header {
+  /*la barra de navegacion*/
+}
+header .dropdown-menu {
+  background-color: #F4F4F4;
+}
+header .container-fluid {
+  gap: 25%;
+}
+header .navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+header h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+header .navbar-nav {
+  font-size: 16px;
+  gap: 40px;
+}
+header .carritodecompras,
+header .persona-index {
+  width: 25px;
+}/*# sourceMappingURL=bootstrap.css.map */

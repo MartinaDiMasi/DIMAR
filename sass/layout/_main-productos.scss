@@ -16,7 +16,6 @@
 
     .vestilargo,
     .vestilanilla,
-    .monobotones,
     .vestisaten {
         height: map-get($medidasFotos , height );
         width: map-get($medidasFotos , width );
@@ -36,9 +35,8 @@
 
     .buzocamio,
     .buzocap,
-    .buzored,
-    .buzocrop,
-    .buzohood,
+    .buzored,   
+    .buzocierre,
     .buzohood2 {
         height: map-get($medidasFotos , height );
         width: map-get($medidasFotos , width );
@@ -47,8 +45,7 @@
 
 .main-topsybodies {
     
-    .bodyliso,
-    .topelasticos {
+    .bodyliso {
         height: map-get($medidasFotos , height );
         width: map-get($medidasFotos , width );
     }

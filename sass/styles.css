@@ -116,17 +116,19 @@
   flex-wrap: wrap;
   justify-content: space-around;
   margin-bottom: 30px;
+  overflow: hidden;
 }
-.main-index .contenedor-productos2 .camisa-desta, .main-index .contenedor-productos2 .buzos-desta, .main-index .contenedor-productos2 .jean-desta, .main-index .contenedor-productos2 .body-desta {
+.main-index .contenedor-productos2 .camisa-desta, .main-index .contenedor-productos2 .vestido-desta, .main-index .contenedor-productos2 .buzos-desta, .main-index .contenedor-productos2 .jean-desta, .main-index .contenedor-productos2 .body-desta {
   height: 350px;
   width: 280px;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin-bottom: 70px;
-  object-fit: cover;
+  margin-bottom: 71px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.main-index .camisa-desta:hover, .main-index .jean-desta:hover, .main-index .buzos-desta:hover, .main-index .body-desta:hover {
-  transform: scale(1.2);
+.main-index .contenedor-productos2 .camisa-desta:hover {
+  transform: scale(1.1);
 }
 
 footer {
@@ -298,6 +300,10 @@ footer .opciones-footer li a:hover {
   padding: 5px;
   margin-bottom: 16px;
   background-color: #F4F4F4;
+}
+.main-registrar input::-moz-placeholder {
+  font-size: 13px;
+  font-style: oblique;
 }
 .main-registrar input::placeholder {
   font-size: 13px;
@@ -755,6 +761,4 @@ header .persona-index {
     height: auto;
     flex-wrap: wrap;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
