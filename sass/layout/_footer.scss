@@ -1,5 +1,6 @@
 
 footer{
+    
     @include flex (flex,row,center);
     background-color: map-get($colores, colorPrincipal);
     justify-content: space-around;
